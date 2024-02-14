@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web của Bạn</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: 40px;
+        }
+
+        .content {
+            width: 48%;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .image {
+            width: 48%;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .vien1{
+            border: 2px solid black;
+            margin: 10px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .vien2{
+            border: 2px solid black;
+            margin: 10px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Truong THPT Phuc Hoa</h1>
+        </div>
+        <div>
+            <img src="demologo.jpeg" alt="Logo" style="height: 50px; width: 50px;">
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="gt.html">Giới thiệu</a>
+        <a href="gy.html">Góp ý</a>
+        <a href="lh.html">Liên hệ</a>
+        <a href="hd.html">Hoi & dap</a>
+    </nav>
+    <div class="vien1">
+    <div class="section">
+        <div class="image">
+            <img src="demologo.jpeg" alt="Image 1">
+        </div>
+        <div class="content">
+            <h2>Nội dung bên phải</h2>
+            
+        </div>
+    </div>
+</div>
+    <div class="vien2">
+    <div class="section">
+        <div class="content">
+            <h2>Nội dung bên trái</h2>
+        </div>
+        <div class="image">
+            <img src="demologo.jpeg" alt="Image 2">
+        </div>
+    </div>
+</div>
+    
+    <footer>
+        <p>Địa chỉ: Địa chỉ của trường | Số điện thoại: Số điện thoại của trường</p>
+    </footer>
+</body>
+</html>
